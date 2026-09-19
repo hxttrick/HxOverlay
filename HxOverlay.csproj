@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>HxOverlay</RootNamespace>
+        <PackageId>HxOverlay</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="overlay.assetbundle" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>..\..\..\valheim_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
